@@ -1,0 +1,576 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Kape-ling</title>
+  <meta content="Kape-Ling Company" name="description">
+  <meta content="coffee, kape, kape-ling company" name="keywords">
+  <meta content="nogs" name="author">
+  <link href="assets/img/kapeling7.png" rel="icon">
+  <link href="assets/img/kapeling7.png" rel="apple-touch-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/vendor/simple-notify/dist/simple-notify.min.css" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/mdbootstrap/css/mdb.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/vendor/owl/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/vendor/owl/dist/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./assets/css/utils.css">
+  <link rel="stylesheet" href="./assets/css/indexx.css">
+  <style>
+    body {
+      overflow-x: hidden !important;
+    }
+    @keyframes ups-and-downs {
+      from { transform: translateY(-5px);}
+      to { transform: translateY(0px);}
+    }
+    .fabtotop {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      margin: 5px;
+      animation: ups-and-downs infinite alternate 0.6s;
+      box-shadow: 0 0 10px #000;
+    }
+    .inputter {
+      border: solid 3px transparent;
+      /* border-radius: 50px; */
+    }
+    .inputter:active,
+    .inputter:focus,
+    .inputter:hover {
+        border: solid 3px #b9967f !important;
+        box-shadow: none !important;
+    }
+    @media screen and (max-width: 727px) {
+      .footer-header {
+        display: none;
+      }
+      .navbar-logo {
+        display: none;
+      }
+      .carousel-bg-info div {
+        margin-top: 130px !important;
+      }
+    }
+  </style>
+  <script type="text/javascript" src="assets/vendor/mdbootstrap/js/mdb.min.js"></script>
+</head>
+<body>
+  <!-- CAROUSEL -->
+  <div id="carouselExampleCaptions" class="carousel slide vertical" data-mdb-ride="carousel" data-mdb-pause="false" data-mdb-interval="5000">
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-absolute top-0" style="z-index: 99999 !important;">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo_kapeling.png" alt="Kapeling Logo" class="img-fluid nav-logo">
+        </a>
+        <button
+          class="navbar-toggler bg-transparent border-0"
+          type="button text-white"
+          data-mdb-toggle="offcanvas"
+          data-mdb-target="#offcanvas"
+          aria-controls="offcanvas"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <div class="animated-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#inquire-section">Inquire</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sustainability.html">Sustainability</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="carousel-indicators">
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/coffee.jpg" class="d-block w-100" alt="Brewed Coffee">
+        <div class="carousel-caption caption-1">
+          <h1 class="d-none d-md-block" style="font-weight: bold;">Kape-Ling</h1>
+          <h3>Mapapa-iling ka sa sarap!</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/coffee-beans.jpg" class="d-block w-100" alt="Coffee Image 4">
+        <div class="carousel-caption caption-2">
+          <h1>Cheap and Discounted Price</h1>
+          <h3>Get free 30% discount after 5 purchases in 3 days!</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/coffee2.jpg" class="d-block w-100" alt="Coffee Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/coffee3.jpg" class="d-block w-100" alt="Coffee Image 3">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/coffee4.jpg" class="d-block w-100" alt="Coffee Image 4">
+      </div>
+    </div>
+    <div class="carousel-info-wrapper">
+      <div class="carousel-info-content">
+
+      </div>
+    </div>
+  </div>
+  <div
+    class="offcanvas offcanvas-end"
+    tabindex="-1"
+    id="offcanvas"
+    aria-labelledby="offcanvasRightLabel"
+  >
+    <div class="offcanvas-header">
+      <!-- <h5 id="offcanvasRightLabel"></h5> -->
+      <button
+        type="button"
+        class="btn d-block ms-auto bg-transparent shadow-0"
+        data-mdb-dismiss="offcanvas"
+        aria-label="Close"
+        id="dismiss-offcanvas"
+      >
+      <i class="fa-solid fa-times text-white"></i>
+    </button>
+    <div class="clearfix"></div>
+    </div>
+    <div class="offcanvas-body">
+      <div class="offcanvas-links">
+        <ul class="list-group">
+          <li class="list-group-item bg-transparent" style="width: fit-content;">
+            <a class="text-white" href="index.html">Home</a>
+          </li>
+          <li class="list-group-item bg-transparent" style="width: fit-content;">
+            <a class="text-white" href="#products">Products</a>
+          </li>
+          <li class="list-group-item bg-transparent" style="width: fit-content;">
+            <a class="text-white" href="#inquire">Inquire</a>
+          </li>
+          <li class="list-group-item bg-transparent" style="width: fit-content;">
+            <a class="text-white" href="#reviews">Reviews</a>
+          </li>
+          <li class="list-group-item bg-transparent" style="width: fit-content;">
+            <a class="text-white" href="sustainability.html">Sustainability</a>
+          </li>
+          <li class="list-group-item bg-transparent" style="width: fit-content;">
+            <a class="text-white" href="about-us.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- TAGA WELCOME -->
+  <div class="jumbotron jumbotron-section" id="welcomer" data-aos="fade-up"  data-aos-duration="1800">
+    <div class="container">
+      <h3>Good quality coffee products!</h3>
+      <p>We offer good quality, great taste, natural, original, well-brewed and organic coffee products with thousands of branches in every country in the world.</p>
+      <button class="btn btn-brand shadow-0">Learn More</button>
+    </div>
+  </div>
+  <!-- PRODUCTS -->
+  <div class="product-section super-padding-70" id="products">
+    <div class="mb-5">
+      <div class="header-text mb-2" data-aos="fade-down" data-aos-duration="1200">
+        <h2>Products</h2>
+      </div>
+      <p class="text-center">This is our top rated popular products with millions of serves around the world!</p>
+    </div>
+    <div class="container" style="padding: 140px; padding-top: 15px;">
+      <div class="row g-4">
+        <div class="col-md-4 col-sm-12 position-relative" data-aos="fade-up" data-aos-duration="1800">
+          <div class="ribbon"><span>POPULAR</span></div>
+          <img src="./assets/img/coffee-product2.webp" alt="Luckie Iced Coffee (Php 499.75)" class="img-fluid lightbox">
+        </div>
+         <div class="col-md-4 col-sm-12 position-relative" data-aos="fade-up" data-aos-duration="1800">
+          <div class="ribbon"><span>TOP RATED</span></div>
+          <img src="./assets/img/coffee-product3.webp" alt="Nogs Sugarfree (Php 699.75)" class="img-fluid lightbox">
+        </div>
+         <div class="col-md-4 col-sm-12 position-relative" data-aos="fade-up"  data-aos-duration="1800">
+          <div class="ribbon"><span>NEW</span></div>
+          <img src="./assets/img/coffee-product4.webp" alt="Ron Coffee (Php 799.75)" class="img-fluid lightbox">
+        </div>
+         <div class="col-md-4 col-sm-12 position-relative" data-aos="fade-up"  data-aos-duration="1800">
+          <img src="./assets/img/coffee-product5.webp" alt="Turon Flavored (Php 299.75)" class="img-fluid lightbox">
+        </div>
+         <div class="col-md-4 col-sm-12 position-relative" data-aos="fade-up"  data-aos-duration="1800">
+          <img src="./assets/img/coffee-product6.webp" alt="Nogs Extreme (Php 1499.00)" class="img-fluid lightbox">
+        </div>
+         <div class="col-md-4 col-sm-12 position-relative" data-aos="fade-up"  data-aos-duration="1800">
+          <img src="./assets/img/coffee-product7.webp" alt="Don't panic, it's organic! (Php 375)" class="img-fluid lightbox">
+        </div>
+         <div class="col-md-4 col-sm-12 position-relative" data-aos="fade-up"  data-aos-duration="1800">
+          <img src="./assets/img/coffee-product8.webp" alt="Office Best (Php 250)" class="img-fluid lightbox">
+        </div>
+         <div class="col-md-4 col-sm-12 position-relative" data-aos="fade-up"  data-aos-duration="1800">
+          <div class="ribbon"><span>CLASSIC</span></div>
+          <img src="./assets/img/coffee-product9.webp" alt="Sunbucks Coffee (Php 350)" class="img-fluid lightbox">
+        </div>
+         <div class="col-md-4 col-sm-12 position-relative" data-aos="fade-up"  data-aos-duration="1800">
+          <img src="./assets/img/coffee-product10.webp" alt="Igib Mode (Php 299)" class="img-fluid lightbox">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- HEALTH AND BENEFITS -->
+  <div class="benefits benefits-section p-5" id="benefits" data-aos="fade-up"  data-aos-duration="1800">
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-lg-8 col-md-12">
+          <h2 class="mb-4"><i class="fa-solid fa-heartbeat me-2" style="color: #b9967f;"></i>Health Benefits</h2>
+          <h6>As we value and take care for the health of our customers, the following list below are health benefits of our products.</h4>
+          <ul class="list-group mt-4" style="list-style: none;">
+            <li><i class="fa-solid fa-check-circle me-2" style="color: #b9967f;"></i>Rich in fiber and other nutrients</li>
+            <li><i class="fa-solid fa-check-circle me-2" style="color: #b9967f;"></i>Safeguard the liver</li>
+            <li><i class="fa-solid fa-check-circle me-2" style="color: #b9967f;"></i>Reduce melanoma risk</li>
+            <li><i class="fa-solid fa-check-circle me-2" style="color: #b9967f;"></i>Lower mortality risk</li>
+            <li><i class="fa-solid fa-check-circle me-2" style="color: #b9967f;"></i>Cure cancer (any stages) in 3 days</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <img src="./assets/img/bg_coffee.png" alt="Healthy Coffee" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- PRODUCTION -->
+  <div class="production" data-aos="fade-up"  data-aos-duration="1800">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img src="./assets/img/coffee_process1.jpg" alt="Coffee Background 1" class="img-fluid">
+        <div class="item-content-wrapper">
+          <div class="item-content p-5">
+            <h2 class="text-center">Good quality equipments</h2>
+            <p>We have modernized equipments that will help our workers to develop the product.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./assets/img/coffee_process2.jpg" alt="Coffee Background 2" class="img-fluid">
+        <div class="item-content-wrapper">
+          <div class="item-content p-5">
+            <h2 class="text-center">ISO Certified, World Class Quality</h2>
+            <p>We follow ISO 9001:2015 and ISO 14001:2015 to check the efficiency, productivity and safetiness of the product and employees.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./assets/img/coffee-organic.jpg" alt="Coffee Background 3" class="img-fluid">
+        <div class="item-content-wrapper">
+          <div class="item-content p-5">
+            <h2 class="text-center">Natural and Less Chemical</h2>
+            <p>Our products are well-brewed and naturally from our exporters. We do not apply any other customized ingredients for our products.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- REVIEWS -->
+  <div class="reviews p-5" id="reviews">
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10 col-xl-8 text-center">
+          <div class="header-text mb-4" data-aos="fade-down" data-aos-duration="1200">
+              <h2>Reviews</h2>
+          </div>
+          <p class="mb-4 pb-2 mb-md-5 pb-md-0">Here are some of the reviews of our top customers about our products.</p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <div class="card" style="border-radius: 0% !important;" data-aos="fade-up"  data-aos-duration="1800">
+            <div class="card-body py-4 mt-2">
+              <div class="d-flex justify-content-center mb-4">
+                <img src="./assets/img/pinay1.jpg" class="rounded-circle shadow-1-strong" width="100" height="100" />
+              </div>
+              <h5 class="font-weight-bold">Jenny Flores</h5>
+              <h6 class="font-weight-bold my-3">For Sunbucks Coffee</h6>
+              <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              </ul>
+              <p class="mb-2">
+              <i class="fa-solid fa-quote-left pe-2"></i>
+                <small>
+                  I love the coffee. It's so good, I can't believe that is so cheap! I love it so much, sulit na sulit! Balanse lang ang timpla, hindi sobrang sarap, hindi rin matabang. Wow Magic! Napasigaw talaga ako ng "SANA ALL!!!" sa napakaraming tao! Nakaka-iyak talaga because it was my first time to drink here. Panalong panalo ito hehehe! Ikaw lang ang gusto kong maKape-Ling.
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+          <div class="card" style="border-radius: 0% !important;" data-aos="fade-up"  data-aos-duration="1800">
+            <div class="card-body py-4 mt-2">
+              <div class="d-flex justify-content-center mb-4">
+                <img src="./assets/img/model_girl.webp" class="rounded-circle shadow-1-strong" width="100" height="100" />
+              </div>
+              <h5 class="font-weight-bold">Lady Nagi Sanzenin</h5>
+              <h6 class="font-weight-bold my-3">For Nogs Extreme</h6>
+              <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              </ul>
+              <p class="mb-2">
+              <i class="fa-solid fa-quote-left pe-2"></i>
+                <small>
+                  I love coffee because it wakes me up and gives me energy every morning. Coffee contains caffeine, which is a stimulant that can make people feel more alert and focused. However, drinking coffee alone sometimes boring. Did you know the there's another way to feel better while having a coffee break? That's KAPE-LING! Drinking with them solves all my problem in my life.
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-0">
+          <div class="card" style="border-radius: 0% !important;" data-aos="fade-up"  data-aos-duration="1800">
+            <div class="card-body py-4 mt-2">
+              <div class="d-flex justify-content-center mb-4">
+                <img src="./assets/img/pinoy.jpg" class="rounded-circle shadow-1-strong" width="100" height="100" />
+              </div>
+              <h5 class="font-weight-bold">Robolito Rivera</h5>
+              <h6 class="font-weight-bold my-3">For Igib Mode</h6>
+              <ul class="list-unstyled d-flex justify-content-center">
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star fa-sm text-brand-dark"></i>
+              </li>
+              </ul>
+              <p class="mb-2">
+              <i class="fa-solid fa-quote-left pe-2"></i>
+              <small>I have a Stage 6 DotA 2 Cancer but it was now fully healed. The doctor said that hindi na raw ako tatagal sa December 21, 2021 at mabubura na raw ang Steam Account ko, but now I am fully recovered. All my cancer cells are gone. Walang milagro dito at talagang nakakapang-gamot. Thanks Kape-Ling, the best. Immortal na pala ako sa DotA 2!</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br><br><br><br><br>
+    <div class="dashed-lines my-5">
+      <img src="./assets/img/dashed.svg" alt="">
+    </div>
+  </div>
+  <!-- INQUIRE -->
+  <div class="inquire-section" id="inquire-section" data-aos="fade-up"  data-aos-duration="1800">
+    <img src="./assets/img/cocoa.png" alt="Cocoa" class="img-fluid cacao">
+    <div class="container p-5">
+      <div class="row" data-aos="fade-up"  data-aos-duration="1800">
+        <div class="col-lg-6 col-sm-12 mb-5">
+          <div class="inquire-content">
+            <div class="header-text mb-3">
+              <h2>Leave Us A Message</h2>
+            </div>
+            <p>If you have product inquiries, concerns or suggestions, you may leave us a message here.</p>
+          </div>
+          <img src="./assets/img/cup.png" alt="Cup of Coffee" class="img-fluid d-block m-auto" style="height: 120px;">
+        </div>
+        <div class="col-lg-6 col-sm-12 mb-5">
+          <div class="form-wrapper">
+            <form action="index.html" method="POST" id="inquiry-form">
+              <div class="form-group mb-3">
+                <label>Email Address:</label>
+                <input type="email" name="email" id="email" class="form-control inputter" placeholder="Email Address here">
+              </div>
+              <div class="form-group mb-3">
+                <label>Title:</label>
+                <input type="text" name="title" id="title" class="form-control inputter" placeholder="Enter title of message">
+              </div>
+              <div class="form-group mb-3">
+                <label>Message <small>(Please include your full name)</small></label>
+                <textarea name="message" id="message" rows="1" class="form-control inputter" oninput="auto_grow(this)"></textarea>
+              </div>
+              <button class="btn btn-brand btn-sm shadow-0 form-control" id="submit">
+                  Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER -->
+  <footer class="footer text-center text-white text-lg-start" id="footer">
+    <div class="p-4">
+        <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+              <img src="./assets/img/kapeling7.png" alt="Footer Logo" class="img-fluid">
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 branches">
+              <h6 class="text-uppercase fw-bold mb-4">
+                Branches
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Cabuyao</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Calamba</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Liliw</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Pagsanjan</a>
+              </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fa-solid fa-home me-3 text-brand-light"></i> Calamba, Laguna, 4027, PH</p>
+            <p>
+              <i class="fa-solid fa-envelope me-3 text-brand-light"></i>
+              sunogan77@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone me-3 text-brand-light"></i> +63977 400 2607</p>
+          </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Main Location
+          </h6>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3868.453841482902!2d121.104001!3d14.168176!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd65ed00eea561%3A0x9189858f2b86a7ac!2sDreambuilders%20Pro%20Inc!5e0!3m2!1sen!2sph!4v1691131778235!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © 2023
+        <a class="text-reset fw-bold" href="https://sunogan.surge.sh/" target="_blank">Nagonus</a>
+    </div>
+    </footer>
+    <a href="#" type="button" class="btn btn-brand-dark rounded-circle shadow-sm fabtotop btn-sm" style="width: fit-content;">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/simple-notify/dist/simple-notify.min.js"></script>
+<script src="assets/vendor/owl/dist/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script>
+
+  const fabtotop = document.querySelector('.fabtotop');
+  fabtotop.style.display= "none"
+
+  window.addEventListener('scroll', function(e){
+    if(window.scrollY > 650) {
+      fabtotop.style.display= "block"
+    } else {
+      fabtotop.style.display= "none"
+    }
+  })
+
+  document.querySelector('.animated-icon1').addEventListener('click',function(e){
+    document.querySelector('.animated-icon1').classList.toggle('open')
+  })
+
+  function newElement(tagName){
+    let newElement = document.createElement(tagName)
+
+    return newElement
+  }
+
+  newElement.prototype.appendTo = function (element) {
+    element.append(this)
+  }
+
+  function auto_grow(element) {
+    element.style.height = "5px";
+    element.style.height = (element.scrollHeight)+"px";
+  }
+
+  const lightbox = GLightbox({
+    selector: '.lightbox'
+  })
+
+
+  $('#dismiss-offcanvas').click(function(e){
+    e.preventDefault()
+    $('.animated-icon1').toggleClass('open')
+  })
+
+  $('.owl-carousel').owlCarousel({
+    dots: true,
+    nav: false,
+    items: 1,
+    loop: true,
+    autoplay: true,
+    smartSpeed:450
+  })
+
+    AOS.init({ once: true })
+
+    // thoughts about coffee in the morning?
+
+    // why do people love coffee?
+</script>
+</html>

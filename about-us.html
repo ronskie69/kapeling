@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Kape-ling</title>
+  <meta content="Kape-ling" name="description">
+  <meta content="coffee, kape, kape-ling company" name="keywords">
+  <meta content="nogs" name="author">
+  <link href="assets/img/kapeling7.png" rel="icon">
+  <link href="assets/img/kapeling7.png" rel="apple-touch-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/vendor/simple-notify/dist/simple-notify.min.css" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/mdbootstrap/css/mdb.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/vendor/owl/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/vendor/owl/dist/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./assets/css/utils.css">
+  <link rel="stylesheet" href="./assets/css/about-us.css">
+  <style>
+    body{
+      overflow-x: hidden;
+    }
+    @keyframes ups-and-downs {
+      from { transform: translateY(-5px);}
+      to { transform: translateY(0px);}
+    }
+    .fabtotop {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      margin: 5px;
+      animation: ups-and-downs infinite alternate 0.6s;
+      box-shadow: 0 0 10px #000;
+    }
+    .inputter {
+      border: solid 3px transparent;
+      /* border-radius: 50px; */
+    }
+    .inputter:active,
+    .inputter:focus,
+    .inputter:hover {
+        border: solid 3px #b9967f !important;
+        box-shadow: none !important;
+    }
+    .vertical.carousel button {
+      z-index: 10 !important;
+      border: solid 2px #b9967f;
+    }
+    @media screen and (max-width: 727px) {
+      .footer-header {
+        display: none;
+      }
+      .carousel-bg-info div {
+        margin-top: 130px !important;
+      }
+    }
+  </style>
+  <script type="text/javascript" src="assets/vendor/mdbootstrap/js/mdb.min.js"></script>
+</head>
+<body>
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="z-index: 99999 !important;">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/img/logo_kapeling.png" alt="Kapeling Logo" class="img-fluid nav-logo">
+      </a>
+      <button
+        class="navbar-toggler bg-transparent border-0"
+        type="button text-white"
+        data-mdb-toggle="offcanvas"
+        data-mdb-target="#offcanvas"
+        aria-controls="offcanvas"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <div class="animated-icon1">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#inquire-section">Inquire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sustainability.html">Sustainability</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="offcanvas offcanvas-end"
+    tabindex="-1"
+    id="offcanvas"
+    aria-labelledby="offcanvasRightLabel"
+  >
+    <div class="offcanvas-header">
+      <!-- <h5 id="offcanvasRightLabel"></h5> -->
+      <!-- <button
+        type="button"
+        class="btn d-block ms-auto bg-transparent shadow-0"
+        data-mdb-dismiss="offcanvas"
+        aria-label="Close"
+        id="dismiss-offcanvas"
+      >
+      <i class="fa-solid fa-times text-white"></i>
+    </button> -->
+    <div class="clearfix"></div>
+    </div>
+    <div class="offcanvas-body">
+      <div class="offcanvas-links">
+        <ul class="list-group">
+          <li class="list-group-item bg-transparent" style="width: fit-content;">
+            <a class="text-white" href="index.html">Home</a>
+          </li>
+          <li class="list-group-item bg-transparent" style="width: fit-content;">
+            <a class="text-white" href="#products">Products</a>
+          </li>
+          <li class="list-group-item bg-transparent" style="width: fit-content;">
+            <a class="text-white" href="#inquire">Inquire</a>
+          </li>
+          <li class="list-group-item bg-transparent" style="width: fit-content;">
+            <a class="text-white" href="#reviews">Reviews</a>
+          </li>
+          <li class="list-group-item bg-transparent" style="width: fit-content;">
+            <a class="text-white" href="sustainability.html">Sustainability</a>
+          </li>
+          <li class="list-group-item bg-transparent" style="width: fit-content;">
+            <a class="text-white" href="about-us.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container p-5 my-2">
+    <div class="row">
+        <div class="header-text" data-aos="fade-down" data-aos-duration="1200">
+            <h2>About Us</h2>
+        </div>
+    </div>
+  </div>
+  <!-- CAROUSEL -->
+  <div class="carousel-wrapper p-4" data-aos="fade-up" data-aos-duration="1800">
+    <div id="carouselExampleCaptions" class="carousel slide vertical" data-mdb-ride="carousel" data-mdb-pause="false" data-mdb-interval="10000">
+        <div class="carousel-indicators">
+          <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row narrow g-0">
+                <div class="col-md-4 col-sm-12">
+                    <img src="./assets/img/nac.jpg" class="d-block w-100" alt="Brewed Coffee">
+                </div>
+                <div class="col-md-8 col-sm-12 bg-color-primary">
+                    <div class="carousel-content">
+                        <div class="d-block">
+                            <h5 class="mb-2">Dra. Jane Doe, M.D , D.C.N.</h5>
+                            <p>As a Doctor of Medicine and a Doctor of Clinical Nutrition, I am aware
+                                of the need for nutritional education in our society
+                                and my goal with our company is to ensure that we are able to meet the needs of all people.
+                                Coffee products are made with high quality ingredients that have been scientifically tested to ensure they meet the highest and safety standards
+                                for our customers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row narrow g-0">
+                <div class="col-md-4 col-sm-12">
+                    <img src="./assets/img/cute_lian.jpg" class="d-block w-100" alt="Brewed Coffee">
+                </div>
+                <div class="col-md-8 col-sm-12 bg-color-primary">
+                    <div class="carousel-content">
+                        <h5 class="mb-2">Lian Yi</h5>
+                        <p>
+                            As an entrepreneur with over 3 years experience in business development, I have faced thousands of product-related issues and circumstances and
+                            I also developed my empathy to the people.
+                            Coffee industry is not new to me and I believe that helping the people first before developing the company will lead us to success.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row narrow g-0">
+                <div class="col-md-4 col-sm-12">
+                    <img src="./assets/img/janc.jpg" class="d-block w-100" alt="Brewed Coffee">
+                </div>
+                <div class="col-md-8 col-sm-12 bg-color-primary">
+                    <div class="carousel-content">
+                        <h5 class="mb-2">Dra. Fei Liu, CPA, DBA, MD, JD</h5>
+                        <p>
+                            Coffee industry can make a significant positive impact on a country's economy and finances. By supporting the coffee industry, countries can generate revenue, create jobs, attract tourism, improve infrastructure, and promote environmental sustainability. I, myself,
+                            a Certified Public Accountant, Juris Doctor, Medical Doctor and a Doctor of Business Administration who graduated as a four-time <em><strong>Summa Cum Laude</strong></em> for all these fields in Harvard University, this company will boost one's economy and help the starving people around the world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row narrow g-0">
+                <div class="col-md-4 col-sm-12">
+                    <img src="./assets/img/katutubo.jpg" class="d-block w-100" alt="Brewed Coffee">
+                </div>
+                <div class="col-md-8 col-sm-12 bg-color-primary">
+                    <div class="carousel-content">
+                        <h5 class="mb-2">Tribesmen</h5>
+                        <p>
+                            The tribal culture is a very important part of Filipino society and the company aims to help them in their lives by giving them their rights of land,
+                            food and habitat. We are continuously building trust with them to help us for our company goals. They are one of our best coffee suppliers that will continue 
+                            for a long long time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        <!-- <div class="carousel-info-wrapper">
+          <div class="carousel-info-content">
+     
+          </div>
+        </div> -->
+      </div>
+  </div>
+  </div>
+  <!-- TAGA WELCOME -->
+  <div class="jumbotron jumbotron-section p-5" id="welcomer" data-aos="fade-up" data-aos-duration="1800">
+    <img src="./assets/img/bg_coffee.png" alt="Coffee Product" class="img-fluid coffee-product">
+    <br><br>
+    <div class="container-fluid" data-aos="fade-up" data-aos-duration="1800">
+      <h3 style="font-weight: bold;">Get in Touch!</h3>
+      <p>You can also contact us on our Facebook Page or via Facebook Messenger. Just click the button below and get in touch with us for more updates, promos, discounts, giveaways and more.</p>
+      <a href="https://www.facebook.com/sunog.an003" target="_blank" class="btn btn-brand shadow-0">Visit Facebook Page</a>
+    </div><br><br><br><br>
+    <img src="./assets/img/dashed.svg" alt="Dashed" class="img-fluid dashed">
+  </div>
+  <!-- FOOTER -->
+  <footer class="footer text-center text-white text-lg-start" id="footer">
+    <div class="p-4">
+        <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+              <img src="./assets/img/kapeling7.png" alt="Footer Logo" class="img-fluid">
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                Branches
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Cabuyao</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Calamba</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Liliw</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Pagsanjan</a>
+              </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fa-solid fa-home me-3 text-brand-light"></i> Calamba, Laguna, 4027, PH</p>
+            <p>
+              <i class="fa-solid fa-envelope me-3 text-brand-light"></i>
+              sunogan77@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone me-3 text-brand-light"></i> +63977 400 2607</p>
+          </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Main Location
+          </h6>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3868.453841482902!2d121.104001!3d14.168176!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd65ed00eea561%3A0x9189858f2b86a7ac!2sDreambuilders%20Pro%20Inc!5e0!3m2!1sen!2sph!4v1691131778235!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © 2023
+        <a class="text-reset fw-bold" href="https://sunogan.surge.sh/" target="_blank">Nagonus</a>
+    </div>
+    </footer>
+    <a href="#" type="button" class="btn btn-brand-dark rounded-circle shadow-sm fabtotop btn-sm" style="width: fit-content;">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+</body>
+<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+
+  const fabtotop = document.querySelector('.fabtotop');
+  fabtotop.style.display= "none"
+
+  window.addEventListener('scroll', function(e){
+    if(window.scrollY > 300) {
+      fabtotop.style.display= "block"
+    } else {
+      fabtotop.style.display= "none"
+    }
+  })
+
+  document.querySelector('.animated-icon1').addEventListener('click',function(e){
+    document.querySelector('.animated-icon1').classList.toggle('open')
+  })
+
+  AOS.init({ once: true })
+</script>
+</html>

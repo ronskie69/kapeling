@@ -1,0 +1,113 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+  .btn {
+    text-transform: none;
+    font-size: 100%;
+  }
+  .navbar {
+    height: 100px;
+    background: #b9967f !important;
+    width: 100%;
+    height: 70px;
+    color: #fff !important;
+    box-shadow: none;
+  }
+  .navbar a {
+    color: #fff !important;
+  }
+  
+  /* NAVBAR TOGGLE SIDEBAR */
+  .offcanvas {
+    background: #4f4f4f;
+    color: #f4f5f6;
+    z-index: 10000 !important;
+    max-width: 220px !important;
+    min-width: 130px !important;
+  }
+  /* CAROUSEL */
+  .carousel {
+    height: fit-content;
+    overflow: hidden;
+  }
+  .carousel-inner .carousel-item img {
+    height: 400px;
+  }
+  .carousel .carousel-inner .carousel-content {
+    padding: 40px;
+  }
+  .carousel .carousel-inner .carousel-content h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  /* .carousel-info-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .carousel-info-wrapper h2 {
+    font-weight: bold;
+    font-size: 4rem;
+  }
+  .carousel-info-wrapper a {
+    font-size: 1.1rem;
+    width: fit-content;
+  } */
+  .jumbotron-section {
+    position: relative;
+    height: fit-content;
+  }
+  .jumbotron-section .coffee-product {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 260px;
+    width: 380px;
+    transform: translate(0px,-140px);
+  }
+  .jumbotron-section .dashed {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transform: translateY(20px);
+  }
+
+  @media screen and (max-width: 992px) {
+    .carousel-wrapper {
+        margin-top: -20px;
+    }
+    .carousel .carousel-indicators{
+        display: none;
+    }
+    .carousel-inner .carousel-item img {
+      height: 250px;
+      width: 90%;
+    }
+    p, a {
+      font-size: 90% !important;
+    }
+    .jumbotron-section {
+        height: 100%;
+        padding: 18px !important;
+    }
+    .jumbotron-section .container-fluid {
+      margin-top: 100px;
+    }
+    .jumbotron-section .coffee-product {
+        transform: scale(.7) translate(60px, -180px);
+    }
+    .jumbotron-section .dashed {
+        transform: translateY(0px);
+    }
+  }
